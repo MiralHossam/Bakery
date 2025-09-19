@@ -1,0 +1,462 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Alegreya, Sans;
+}
+/* home section */
+.home {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/home-background.jpg) ;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 150vh;
+}
+.content {
+  display: inline-block;
+  width: 58%;
+  margin-top: 200px;
+  color: white;
+  font-weight: 400;
+}
+.home h1 {
+  font-size: 75px;
+  font-family: Alegreya, serif;
+  margin: 0px 0px 18px;
+  font-weight: 400;
+}
+.home p {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.home .text {
+  font-size: 31px;
+}
+.home-buttons {
+  margin-top: 30px;
+}
+.home-buttons a {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.home .button {
+  padding: 25px 38px;
+  border-radius: 4px;
+}
+.home .Learn-more {
+  background-color: #8e7754;
+  border: 2px solid transparent;
+  margin-right: 8px;
+}
+.home .Contact {
+  background-color: transparent;
+  border: solid white;
+}
+.home .bell{
+  height: 72px;
+  width: 50px;
+  border: solid 6px #CFC8C3;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 40px;
+}
+/* who we are secton */
+.who-we-are {
+  padding: 80px 0;
+}
+.contanier {
+  width: 95%;
+  margin: auto;
+}
+.who-we-are .photo {
+  width: 100%;
+  display: inline-block;
+}
+.who-we-are img {
+  width: 94%;
+}
+.who-we-are .text {
+  display: inline-block;
+  line-height: 62px;
+  width: 100%;
+  vertical-align: top;
+  margin: 0 10px;
+}
+.who-we-are h2 {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: Alegreya, serif;
+  color: #303030;
+}
+.who-we-are p {
+  font-size: 45px;
+  color: #686868;
+}
+.who-we-are i {
+  color: #8e7754;
+  margin-right: 15px;
+  padding: 20px;
+  font-size: 42px;
+  border: #dddddd 1px solid;
+  border-radius: 50%;
+}
+/* location section */
+.location {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+.location .text {
+  display: inline-block;
+  vertical-align: top;
+  margin: 35px 20px 0 0;
+  width: 100%;
+  line-height: 62px;
+}
+.location h2 {
+  font-size: 60px;
+  font-family: Alegreya, serif;
+  font-weight: 400;
+  color: #303030;
+}
+.location p {
+  font-size: 45px;
+  color: #686868;
+}
+.location .photo {
+  display: inline-block;
+  width: 100%;
+}
+.location img {
+  width: 100%;
+}
+/* baking section */
+.baking {
+  background-color: #ffffff;
+  padding: 60px 0 80px 0;
+  text-align: center;
+}
+.title {
+  padding-bottom: 35px;
+}
+.title h2 {
+  font-size: 60px;
+  color: #303030;
+  font-family: Alegreya, serif;
+  font-weight: 400;
+}
+.title p {
+  font-size: 37px;
+  color: #888888;
+}
+.product {
+  float: left;
+  width: 100%;
+  padding: 0px 7px;
+  margin-top: 35px;
+  box-sizing: border-box;
+}
+.product .photo {
+  width: 100%;
+  margin: auto;
+}
+.product img {
+  width: 95%;
+}
+.product h3 {
+  color: #303030;
+  font-size: 48px;
+  margin: 20px 0;
+  font-family: Alegreya, serif;
+  font-weight: 400;
+}
+.product p {
+  color: #686868;
+  font-size: 38px;
+  margin: 17px 0;
+  line-height: 52px;
+}
+.clear {
+  clear: both;
+}
+/* contact section */
+.contact {
+  background-color: #f8f8f8;
+  padding: 60px 0 60px 0;
+}
+.contact .text {
+  float: left;
+  width: 100%;
+  padding: 0px 20px;
+  line-height: 62px;
+}
+.contact .text h2 {
+  font-size: 60px;
+  color: #303030;
+  margin: 10px 0 20px 0;
+  font-family: Alegreya, serif;
+  font-weight: 400;
+}
+.contact .text p {
+  font-size: 42px;
+  color: #686868;
+  padding: 5px 0;
+}
+.contact .text i {
+  color: white;
+  font-size: 35px;
+  margin-right: 15px;
+  background-color: #8e7754;
+  padding: 20px;
+  border-radius: 50%;
+}
+.contact .location-photo {
+  float: right;
+  width: 100%;
+}
+.contact img {
+  width: 90%;
+}
+/* 1st footer */
+.first-footer {
+  background-color: #403d38;
+}
+.first-footer .text {
+  float: left;
+  width: 100%;
+  padding: 25px 0;
+  margin: 0 11px;
+  line-height: 50px;
+  vertical-align: top;
+}
+.first-footer .text h4 {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: Alegreya, serif;
+  font-weight: 400;
+}
+.first-footer .text p {
+  color: #969696;
+  font-size: 42px;
+}
+.first-footer .text .footer-photo{
+  background-image: url(../images/contact-details-map.png);
+  background-size: cover;
+  background-position: center center;
+}
+.first-footer .text-line p {
+  padding-bottom: 12px;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.05);
+}
+.first-footer .text i {
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+
+/* secand footer */
+.secand-footer {
+  background-color: #353330;
+  padding: 50px 0;
+  text-align: center;
+}
+.secand-footer p {
+  font-size: 44px;
+  color: #777;
+  margin: 25px 0;
+}
+.secand-footer i {
+  color: #8c8a86;
+  font-size: 44px;
+  margin-right: 8px;
+  background: rgba(140, 138, 134, 0.189);
+  padding: 32px;
+  border-radius: 50%;
+}
+
+/* responsive */
+
+/* sm */
+@media screen and (min-width: 640px) {
+
+}
+/* md */
+@media screen and (min-width: 768px) {
+  .contanier {
+    width: 87%;
+  }
+  .home{
+    height: 70vh;
+  }
+  .content {
+    width: 75%;
+  }
+  .home h1 {
+    font-size: 46px;
+  }
+  .home p {
+    font-size: 22px;
+  }
+  .home .text {
+    font-size: 24px;
+  }
+  .home-buttons a {
+    font-size: 16px;
+  }
+  .home .button {
+    padding: 15px 28px;
+  }
+  .who-we-are .photo {
+    width: 48%;
+  }
+  .who-we-are .text {
+    width: 47%;
+  }
+  .home .bell{
+    height: 45px;
+    width: 30px;
+    border-width: 2px;
+  }
+  .who-we-are {
+    padding: 70px 0;
+  }
+  .who-we-are .text {
+    line-height: 32px;
+  }
+  .who-we-are h2 {
+    font-size: 32px;
+  }
+  .who-we-are p {
+    font-size: 17px;
+  }
+  .who-we-are i {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .location .text {
+    width: 48%;
+    margin: 0;
+  }
+  .location .photo {
+    width: 49%;
+    padding-top: 35px;
+  }
+  .location h2 {
+    font-size: 32px;
+  }
+  .location p {
+    font-size: 17px;
+  }
+  .location .text {
+    line-height: 30px;
+  }
+  .title h2 {
+    font-size: 30px;
+  }
+  .title p {
+    font-size: 17px;
+  }
+  .product {
+    float: left;
+    width: 33%;
+  }
+  .product h3 {
+    font-size: 22px;
+  }
+  .product p {
+    font-size: 17px;
+    line-height: 32px;
+  }
+  .contact .text {
+    width: 50%;
+    line-height: 35px;
+  }
+  .contact .text h2 {
+    font-size: 32px;
+  }
+  .contact .text p {
+    font-size: 16px;
+  }
+  .contact .text i {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .contact .location-photo {
+    width: 40%;
+  }
+  .first-footer{
+    background-position: right center;
+  }
+  .first-footer .text {
+    width: 48%;
+    line-height: 28px;
+    padding: 0;
+    margin: 0 4px;
+  }
+  .first-footer .text h4 {
+    font-size: 18px;
+  }
+  .first-footer .text p {
+    font-size: 16px;
+  }
+  .first-footer .text-line p {
+    padding-bottom: 6px;
+  }
+  .first-footer .text i {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .secand-footer p {
+    font-size: 14px;
+  }
+  .secand-footer i {
+    font-size: 14px;
+    padding: 16px;
+  }
+}
+/* lg */
+@media screen and (min-width: 1024px) {
+  .home{
+    height: 120vh;
+  }
+  .home h1 {
+    font-size: 76px;
+  }
+  .home p {
+    font-size: 22px;
+  }
+  .home .text {
+    font-size: 24px;
+  }
+  .home-buttons a {
+    font-size: 16px;
+  }
+  .home .button {
+    padding: 15px 28px;
+  }
+  .location .text {
+    margin: 35px 20px 0 0;
+  }
+  .contact .text p {
+    font-size: 17px;
+  }
+  .first-footer .text {
+    width: 22%;
+    padding: 25px 0;
+    margin: 0 11px;
+  }
+  .secand-footer i {
+    padding: 12px;
+  }
+
+}
+/* xl */
+@media screen and (min-width: 1280px) {
+
+}
+/* 2xl */
+@media screen and (min-width: 1536px) {
+
+}
